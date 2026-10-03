@@ -1,0 +1,38 @@
+.root {
+    -fx-background-color: #f0f0f0; 
+}
+
+#grid {
+    -fx-padding: 20px;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333; 
+}
+
+.text-field {
+    -fx-pref-width: 200px; 
+}
+
+.button {
+    -fx-background-color: #4CAF50; 
+    -fx-text-fill: white; 
+    -fx-padding: 10px 20px; 
+}
+
+.button:hover {
+    -fx-background-color: #45a049; 
+}
+
+.combo-box {
+    -fx-pref-width: 200px; 
+}
+
+#resultLabel {
+    -fx-font-size: 14px;
+    -fx-text-fill: #FF0000; 
+    -fx-wrap-text: true;
+}
